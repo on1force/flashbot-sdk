@@ -3,9 +3,9 @@
 A simple wrapper for the Flashbots API with TypeScript support and latest
 ethers.js compatibility.
 
-[!CAUTION]
-This is a work in progress. It is not yet ready for production use.
-Some parts of the API are not yet implemented.
+> [!CAUTION]
+> This is a work in progress. It is not yet ready for production use.
+> Some parts of the API are not yet implemented.
 
 List of API endpoints that are implemented:
 
