@@ -1,0 +1,22 @@
+{
+  "name": "flashbot-sdk",
+  "version": "0.0.1",
+  "module": "index.ts",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/on1force/flashbot-sdk.git"
+  },
+  "license": "MIT",
+  "author": "on1force",
+  "keywords": ["flashbots", "sdk", "ethers", "flashbots-sdk"],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ethers": "^6.13.2"
+  }
+}
