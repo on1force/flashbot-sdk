@@ -1,5 +1,5 @@
 {
-  "name": "@on1force/flashbot-sdk",
+  "name": "flashbot-sdk",
   "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
