@@ -5,11 +5,16 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/on1force/flashbot-sdk.git"
+    "url": "git+https://github.com/on1force/flashbot-sdk.git"
   },
   "license": "MIT",
   "author": "on1force",
-  "keywords": ["flashbots", "sdk", "ethers", "flashbots-sdk"],
+  "keywords": [
+    "flashbots",
+    "sdk",
+    "ethers",
+    "flashbots-sdk"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
