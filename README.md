@@ -171,7 +171,7 @@ const fb = new Flashbot(Relays.SEPOLIA, user, provider);
 })().catch(console.error);
 ```
 
-You can find more examples in the [examples](./examples) folder.
+You can find more examples in the [examples](https://github.com/on1force/flashbot-sdk/tree/main/examples) folder.
 
 ## Author
 
