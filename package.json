@@ -2,6 +2,7 @@
   "name": "flashbot-sdk",
   "version": "0.0.5",
   "main": "./dist/index.js",
+  "types": "./types.d.ts",
   "type": "module",
   "scripts": {
     "compile": "bun build ./ --outdir ./dist --target node --packages external"
