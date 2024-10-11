@@ -88,7 +88,7 @@ class Flashbot {
      * console.log(stats);
      * ```
      */
-    public async getUserStats(params: GetUserStatsV2Data[]) {
+    public async getUserStats(params: GetUserStatsV2Data[]): Promise<GetUserStatsV2Response> {
         const body = {
             ...this.defaultBody,
             method: Methods.GET_USER_STATS_V2,
@@ -193,7 +193,7 @@ class Flashbot {
      * console.log(bundle);
      * ```
      */
-    public async sendBundle(params: SendBundleData[]) {
+    public async sendBundle(params: SendBundleData[]): Promise<SendBundleResponse> {
         const body = {
             ...this.defaultBody,
             method: Methods.SEND_BUNDLE,
@@ -241,7 +241,7 @@ class Flashbot {
      * console.log(status);
      * ```
      */
-    public async getBundleStatsV2(params: GetBundleStatsV2Data[]) {
+    public async getBundleStatsV2(params: GetBundleStatsV2Data[]): Promise<GetBundleStatsV2Response> {
         const body = {
             ...this.defaultBody,
             method: Methods.GET_BUNDLE_STATS_V2,
