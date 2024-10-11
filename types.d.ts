@@ -1,1 +1,3 @@
-export * from "./core";
+declare module "flashbot-sdk" {
+    export * from "./core";
+}
